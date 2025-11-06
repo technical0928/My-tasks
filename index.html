@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">Port<span>Folio</span></div>
+
+    <div class="menu" id="menu">
+      <ul>
+        <a href="#home">
+          <li>Home</li>
+        </a>
+        <a href="#about">
+          <li>About</li>
+        </a>
+        <a href="#section">
+          <li>Section</li>
+        </a>
+        <a href="#contact">
+          <li>Contact</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="side" style="display:flex; gap:30px">
+      <img src="direction.png" alt="sidebar" id="togglebtn"
+        style="height:40px; cursor:pointer; display:none; filter: invert(1)">
+      <img src="moon.png" alt="moon" class="moon" style="height:40px; cursor:pointer; filter: invert(1)">
+    </div>
+  </header>
+
+  <main class="main-section" id="home">
+    <div class="content">
+      <div class="left">
+        <h2 style="font-size:2.5rem">Hi am Abdur <span style="color:lightgreen">Rehman</span></h2>
+        <p>A passionate Fronted developer crafting moderm web experience with HTML,CSS.
+          and also my experience.</p>
+        <div class="social-icons">
+          <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+      </div>
+      <div class="right">
+        <div class="right-under" style="border:3px solid red; border-radius:50%;">
+          <!-- <img src="myphoto.png" alt="myphoto" style="height:18rem ;border-radius:50%;"> -->
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- skills section -->
+  <div class="skill-section" id="about">
+    <h1>Skills</h1>
+    <div class="grid-container">
+      <div class="box">
+        <div class="box-logo">
+          <i class="fa-solid fa-html5"></i>
+        </div>
+        <div class="box-content">
+          <h2>HTML5</h2>
+          <p>Creating structured, semantic and accessible web content with modern HTML5.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-logo">
+          <i class="fa-solid fa-css3-alt"></i>
+        </div>
+        <div class="box-content">
+          <h2>CSS3</h2>
+          <p>Styling and animating web interfaces with modern CSS techniques and frameworks.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-logo">
+          <i class="fa-solid fa-js"></i>
+        </div>
+        <div class="box-content">
+          <h2>JavaScript</h2>
+          <p>Building interactive and dynamic web applications with vanilla JavaScript.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-logo">
+          <i class="fa-brands fa-react"></i>
+        </div>
+        <div class="box-content">
+          <h2>React</h2>
+          <p>Developing modern web applications using React and its ecosystem.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-logo">
+          <i class="fa-brands fa-node-js"></i>
+        </div>
+        <div class="box-content">
+          <h2>Node.js</h2>
+          <p>Server-side development with Node.js and Express framework.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-logo">
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <div class="box-content">
+          <h2>Databases</h2>
+          <p>Working with SQL and NoSQL databases for data management.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-logo">
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <div class="box-content">
+          <h2>Version Control</h2>
+          <p>Managing code versions and collaborating using Git and GitHub.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-logo">
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <div class="box-content">
+          <h2>Version Control</h2>
+          <p>Managing code versions and collaborating using Git and GitHub.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- image-section -->
+  <div class="image-section"></div>
+
+  <!-- cards-section -->
+  <div class="king-cards" id="section">
+    <h1>Cards Layout</h1>
+    <div class="cards-section">
+      <div class="card1 card">
+        <div class="card-icon">
+          <i class="fa-solid fa-arrows-rotate" style="font-size:2rem; padding:20px 0px"></i>
+        </div>
+        <div class="card-content">
+          <h2>Two-way</h2>
+          <h2>Synchronization</h2>
+          <p>Automatic real-time synchronization ensures your data is always up-to-date across all devices.</p>
+        </div>
+      </div>
+      <div class="card1 card">
+        <div class="card-icon">
+          <i class="fa-solid fa-shield-halved" style="font-size:2rem; padding:20px 0px"></i>
+        </div>
+        <div class="card-content">
+          <h2>Advanced</h2>
+          <h2>Security</h2>
+          <p>State-of-the-art encryption and security measures to protect your sensitive information.</p>
+        </div>
+      </div>
+      <div class="card1 card">
+        <div class="card-icon">
+          <i class="fa-solid fa-cloud" style="font-size:2rem; padding:20px 0px"></i>
+        </div>
+        <div class="card-content">
+          <h2>Cloud</h2>
+          <h2>Storage</h2>
+          <p>Secure cloud storage solution with unlimited space for all your important files.</p>
+        </div>
+      </div>
+      <div class="card1 card">
+        <div class="card-icon">
+          <i class="fa-solid fa-bolt" style="font-size:2rem; padding:20px 0px"></i>
+        </div>
+        <div class="card-content">
+          <h2>Fast</h2>
+          <h2>Performance</h2>
+          <p>Lightning-fast loading speeds and optimal performance for seamless user experience.</p>
+        </div>
+      </div>
+      <div class="card1 card">
+        <div class="card-icon">
+          <i class="fa-solid fa-headset" style="font-size:2rem; padding:20px 0px"></i>
+        </div>
+        <div class="card-content">
+          <h2>24/7</h2>
+          <h2>Support</h2>
+          <p>Round-the-clock customer support to assist you with any questions or issues.</p>
+        </div>
+      </div>
+      <div class="card1 card">
+        <div class="card-icon">
+          <i class="fa-solid fa-chart-line" style="font-size:2rem; padding:20px 0px"></i>
+        </div>
+        <div class="card-content">
+          <h2>Analytics</h2>
+          <h2>Dashboard</h2>
+          <p>Comprehensive analytics tools to track and analyze your business performance.</p>
+        </div>
+      </div>
+      <div class="card1 card">
+        <div class="card-icon">
+          <i class="fa-solid fa-mobile-screen" style="font-size:2rem; padding:20px 0px"></i>
+        </div>
+        <div class="card-content">
+          <h2>Mobile</h2>
+          <h2>Friendly</h2>
+          <p>Fully responsive design that works perfectly on all mobile devices and tablets.</p>
+        </div>
+      </div>
+      <div class="card1 card">
+        <div class="card-icon">
+          <i class="fa-solid fa-gear" style="font-size:2rem; padding:20px 0px"></i>
+        </div>
+        <div class="card-content">
+          <h2>Easy</h2>
+          <h2>Integration</h2>
+          <p>Seamless integration with your existing systems and third-party applications.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- login-page -->
+  <div class="login-section" id="contact">
+    <div class="login-container">
+      <div class="login-form">
+        <h1 class="parag">Login Page</h1>
+        <div class="login-content">
+        <div class="login-page">
+            <div class="one">
+              <label style="display:block">Email</label>
+              <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="two">
+              <label style="display:block">Passowrd</label>
+              <input type="password" placeholder="Enter your password" required>
+            </div>
+            <div class="three">
+              <label style="display:block">Confirm password</label>
+              <input type="password" placeholder="Enter your password" required>
+            </div>
+            <label style="display:block">Forgot Password?</label>
+            <button>Sign in</button>
+
+   </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- login-end -->
+   
+  <!-- footer start -->
+   <div class="footer">
+    <h2>Abdur <span>Rehman</span></h2>
+    <p>© 2025 Abdur Rehman — Designed & Developed with ❤️</p>
+    <div class="footer-icons">
+      <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+   </div>
+   <!-- footer-end -->
+
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
